@@ -15,7 +15,8 @@ public class ex_19 {
 		System.out.println(c1.width);
 		System.out.println(c2.width);
 		
-		c1.width = 150;      
+		c1.width = 150;      // 가능은 하지만 비추천
+		Card.high = 200;     // 클래스 이름을 사용하는 방식 추
 		System.out.println(c1.width);
 		System.out.println(c2.width);
 	}

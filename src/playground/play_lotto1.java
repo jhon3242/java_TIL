@@ -3,7 +3,7 @@ package playground;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class lotto {
+public class play_lotto1 {
 	public static int[] random() {
 		int[] choice_arr = new int[3];
 		int n;

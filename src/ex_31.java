@@ -4,15 +4,12 @@ public class ex_31{
 	}
 }
 
-class Car{
-	String color;
-	String type;
-	int door;
+class InitTest{
+	int x;
+	int y = x;
 	
-	
-	Car(String color, String t, int door){
-		this.color = color;
-		this.type = type;
-		this.door = door;
+	void method1() {
+		int x;
+		int y = x; // 에러 발
 	}
 }
